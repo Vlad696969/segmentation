@@ -1,5 +1,5 @@
-MoNuSAC_images_and_annotations/
 .ipynb_checkpoints/
+MoNuSAC_images_and_annotations/
 MoNuSAC-master/
 MoNuSAC_masks/
 MoNuSAC_test/
@@ -7,7 +7,13 @@ MoNuSAC_test_masks/
 nucleus_segmentation.ipynb
 positive.csv
 negative.csv
+positive_ws.csv
+negative_ws.csv
 positive_test.csv
 negative_test.csv
 test.csv
 train.csv
+test_total.csv
+train_total.csv
+test_ws.csv
+train_ws.csv
