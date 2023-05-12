@@ -8,6 +8,6 @@ The project is composed of the following files:
 - `lr_model.pkl`, `lr_model_total`, `lr_model_ws`: Trained logistic regression models.
 - `MoNuSAC_masks`, `MoNuSAC_test_masks`: folders containing the binary masks for the training and test set respectively
 
-==Remarks==
+<mark>Remarks</mark>
 - Although they are not present in the repository, the code assumes the presence of the training and test sets in the same directory. The sets should be stored in folders named `MoNuSAC_images_and_annotations` and `MoNuSAC_test` respectively.
 - Some XML files from the test set were not correctly formated. This caused the binary mask generation code to return errors. The corresponding images were thus not used for the testing of the model. It is thus advised to simply run the code with binary masks present in the `MoNuSAC_masks` and `MoNuSAC_test_masks` folders.
